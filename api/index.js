@@ -12,8 +12,8 @@ const getdownRoute = require("./routes/getdown");
 app.get("/", (req, res) => res.send("Express on Vercel"));
 
 // Use routes
-app.use("/hii", hiiRoute);
-app.use("/getdown", getdownRoute);
+// app.use("/hii", hiiRoute);
+// app.use("/getdown", getdownRoute);
 
 // Export the app
 module.exports = app;
